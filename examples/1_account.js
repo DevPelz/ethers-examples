@@ -10,7 +10,7 @@ const main = async () => {
   console.log("================Running================");
   const balance = await provider.getBalance(address);
   console.log(
-    `Eth balance of ${address} is: ${ethers.formatEther(balance)} ETH`
+    `Eth balance of ${address} is: ${ethers .formatEther(balance)} ETH`
   );
 };
 
