@@ -1,6 +1,6 @@
 const { ethers } = require("ethers");
 
-const ALCHEMY_ID = "Fq6M_o-JoCyvyZVR8YfJlWb5k2tvy_qh";
+const ALCHEMY_ID = "";
 const provider = new ethers.JsonRpcProvider(
   `https://eth-sepolia.g.alchemy.com/v2/${ALCHEMY_ID}`
 );
