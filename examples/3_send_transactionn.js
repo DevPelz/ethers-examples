@@ -9,7 +9,7 @@ const account1 = "0x764693DD666E8dD9275CDE8F05C6B07446B1d941"; //sender
 const account2 = "0x601eBA6fbb42B0EC20D821d5eB3f6a6EA7f35267"; //recipient
 
 const privateKey1 =
-  "d0e66d437ab3f746ca7842a3e0424d446ba61156146acc96b697695d2ac3f42c"; //sender private key
+  ""; //sender private key
 
 const wallet = new ethers.Wallet(privateKey1, provider);
 
