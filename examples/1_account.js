@@ -1,7 +1,7 @@
 const { ethers } = require("ethers");
 
 const ALCHEMY_ID = "";
-const provider = new ethers.providers.JsonRpcProvider(
+const provider = new ethers.JsonRpcProvider(
   `https://eth-goerli.g.alchemy.com/v2/${ALCHEMY_ID}`
 );
 
